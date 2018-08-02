@@ -1,0 +1,17 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "hajj-platform",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "hajj-platform",
+      "kebab-case"
+    ]
+  }
+}
